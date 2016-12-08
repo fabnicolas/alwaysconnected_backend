@@ -6,9 +6,10 @@ var pin = require('./models/pin');
 module.exports = {
   configure: function(app) {
 	  
-    /*app.get('/', function(req, res) {
-		res.end('Funziona!');
-	});*/
+	// localhost test at endpoint / for watch if node is working properly
+    app.get('/', function(req, res) {
+		res.end('Ok! :D');
+	});
 
 	 
 	
