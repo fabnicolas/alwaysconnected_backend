@@ -1,8 +1,11 @@
+// Require mysql library for database connection
 var mysql = require('mysql');
- 
+
+// Connection function for DB interaction
 function Connection() {
   this.pool = null;
  
+  // Config
   this.init = function() {
     this.pool = mysql.createPool({
       connectionLimit: 10,
@@ -21,4 +24,5 @@ function Connection() {
   };
 }
 
+// Export this function to other node scripts
 module.exports = new Connection();
