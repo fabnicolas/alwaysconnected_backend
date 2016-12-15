@@ -1,4 +1,6 @@
 # alwaysconnected_backend
+[ONLY FOR TESTING, PERSONAL USE]
+
 Backend for the project "alwaysconnected" (Project manager: Andrea Soldà).
 
 File structure:
